@@ -5,7 +5,7 @@ require_once "config.inc.php";
 $result = mysqli_query($mysqli,"SELECT * FROM back2_leden ORDER BY last_name");
 
 //list of members
-echo "<h1>Ledenlijst</h1>";
+echo "<h1>Ledenlijst.</h1>";
 echo "<p><a href='lid_nieuw.php'>Klik hier</a> om een nieuw lid toe te voegen</p>";
 echo "<table>";
 echo "<tr>";
